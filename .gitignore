@@ -1,0 +1,38 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore training artifacts
+runs/
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Ignore dataset artifacts
+*.zip
+*.tar.gz
+*.rar
+.DS_Store
+
+# VSCode settings (if applicable)
+.vscode/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore virtual environments
+venv/
+.yolov-env/
+
+# Ignore OS and editor-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log

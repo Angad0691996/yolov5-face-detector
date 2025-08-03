@@ -1,0 +1,6 @@
+train: /home/angad/YOLO_tut/face-detection-yolo/face_detection_yolov5/face-dataset/images/train
+val: /home/angad/YOLO_tut/face-detection-yolo/face_detection_yolov5/face-dataset/images/val
+
+nc: 1
+names: ['angad']
+

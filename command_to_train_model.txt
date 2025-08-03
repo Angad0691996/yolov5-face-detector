@@ -1,0 +1,2 @@
+#command to train the model
+python train.py --img 640 --batch 16 --epochs 50 --data face-dataset/data.yaml --weights yolov5s.pt --name angad-face-detector
