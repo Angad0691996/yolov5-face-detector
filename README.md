@@ -1,30 +1,52 @@
-# YOLOv5 Face Detection Project
+# 🚀 YOLOv5 Face Detection – MLOps Phase 1
 
-This repository contains:
+This repository showcases a **real-time face detection pipeline** using a custom-trained [YOLOv5](https://github.com/ultralytics/yolov5) model. It’s part of a larger **AI + Cloud + DevOps** initiative demonstrating how models are developed, versioned, and deployed from local to production environments.
 
-- A custom face detection model trained using YOLOv5
-- Dataset used for training
-- Trained weights and a sample video (`face-detect.webm`)
-- The YOLOv5 source directory used for training and inference
+## 📦 Project Overview
 
-## Directory Structure
+- ✅ Trained YOLOv5 face detection model
+- 🎞️ Sample demo video: `face-detect.webm`
+- 🗂️ Face dataset (labeled with Roboflow)
+- 🧠 Inference and training setup
+- 📁 YOLOv5 source code included for reproducibility
+
+## 🧩 Directory Structure
 
 face-detection-repo/
-├── face-dataset/ # Labeled images and YAML file
-├── yolov5/ # YOLOv5 codebase (cloned from Ultralytics)
-├── face-detect.webm # Demo video
-├── command_to_train_model.txt
+├── face-dataset/ # Labeled images and dataset.yaml
+├── yolov5/ # YOLOv5 codebase (Ultralytics clone)
+├── face-detect.webm # Sample inference video
+├── command_to_train_model.txt # Training command used
 ├── README.md
 └── .gitignore
 
 
-## Getting Started
+## ⚙️ Getting Started
 
-1. Clone the repo
-2. Install dependencies from `requirements.txt` in `yolov5/`
-3. Run inference on images or video
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/face-detection-repo.git
+2. **Install Dependencies:**
+cd yolov5
+pip install -r requirements.txt
+3. **Run Inference:**
+python detect.py --weights ../best.pt --source ../face-detect.webm
 
-## Credits
+☁️ MLOps & DevOps Context
+While this is a computer vision project at its core, it's designed with DevOps principles in mind:
+    🐳 Can be containerized with Docker for portable inference
+    🛠️ Future plans include deployment on Jetson Nano and AWS EC2
+    📈 Scalable monitoring and visualization using Grafana & Prometheus
+    ⚙️ Will be CI/CD integrated in upcoming phases (model updates & edge deployments)
 
-Based on [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5).
+📹 Demo
+✍️ Author
+Angad Bandal
+Cloud & DevOps Engineer | AI Enthusiast
+LinkedIn • GitHub
+
+📜 Credits
+    YOLOv5: Ultralytics
+    Dataset Labeling: Roboflow
+
 
